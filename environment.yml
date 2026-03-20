@@ -1,0 +1,8 @@
+name: xeus-brainfuck
+channels:
+  - conda-forge
+dependencies:
+  - xeus-brainfuck=0.1.0
+  - notebook
+  - ipywidgets>=7.6
+  - jupyterlab=3

@@ -1,0 +1,14 @@
+{
+  "display_name": "Brainfuck 1.0.0 (xbrainfuck)",
+  "argv": [
+      "@XEUS_BRAINFUCK_KERNELSPEC_PATH@xbrainfuck",
+      "-f",
+      "{connection_file}",
+      "-flavor",
+      "vanilla"
+  ],
+  "language": "brainfuck",
+  "kernel_protocol_version": "5.6.0",
+  "metadata": {"debugger": false
+  }
+}

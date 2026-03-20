@@ -1,0 +1,8 @@
+name: xeus-brainfuck-wasm-host
+channels:
+  - https://prefix.dev/emscripten-forge-4x
+  - conda-forge
+dependencies:
+  - nlohmann_json
+  - xeus-lite >=5.0,<6.0
+  - xeus >=6.0,<7.0

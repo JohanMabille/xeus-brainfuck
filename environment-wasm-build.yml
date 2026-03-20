@@ -1,0 +1,7 @@
+name: xeus-brainfuck-wasm-build
+channels:
+  - https://prefix.dev/emscripten-forge-4x
+  - conda-forge
+dependencies:
+  - cmake
+  - emscripten_emscripten-wasm32 == 4.0.9

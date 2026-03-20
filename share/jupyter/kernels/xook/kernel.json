@@ -1,0 +1,14 @@
+{
+  "display_name": "Ook 1.0.0 (xbrainfuck)",
+  "argv": [
+      "/home/yoyo/micromamba/envs/xeus-brainfuck/bin/xbrainfuck",
+      "-f",
+      "{connection_file}",
+      "-flavor",
+      "ook"
+  ],
+  "language": "ook",
+  "kernel_protocol_version": "5.6.0",
+  "metadata": {"debugger": false
+  }
+}

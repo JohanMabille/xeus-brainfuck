@@ -1,0 +1,13 @@
+name: xeus-brainfuck
+channels:
+  - conda-forge
+dependencies:
+  # Build dependencies
+  - make
+  - cmake
+  - cxx-compiler
+  # Host dependencies
+  - xeus-zmq >=4.0.0,<5.0
+  - nlohmann_json
+  # Test dependencies
+  - jupyter_kernel_test>=0.4.3
